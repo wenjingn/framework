@@ -1,2 +1,2 @@
-I want to create my framework
-Http Client just a start point
+I want to create my own framework
+Http Client is just a start point

@@ -1,0 +1,22 @@
+HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Thu, 13 May 2021 06:49:56 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/8.0.3
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Set-Cookie: PHPSESSID=u14bhqfkdnslds3af9c7v2pgp2; path=/
+
+json: json.json application/json
+mv json.json -> /tmp/json.json
+png: png.png image/png
+mv png.png -> /tmp/png.png
+jpg: jpg.jpg image/jpeg
+mv jpg.jpg -> /tmp/jpg.jpg
+jpeg: jpeg.jpeg image/jpeg
+mv jpeg.jpeg -> /tmp/jpeg.jpeg

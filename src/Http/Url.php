@@ -107,7 +107,7 @@ class Url {
             $protocol = 'http';
         } else {
             $protocol = $partials[0];
-            if ($protocol != 'http' || $protocol != 'https') {
+            if (!in_array($protocol, ['http', 'https', 'ws'])) {
                 $protocol = 'http';
             }
             $url = $partials[1];

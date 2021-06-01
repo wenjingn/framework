@@ -114,7 +114,7 @@ echo str_pad('=', 100, '=')."\r\n";
             curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
         }
         if ($req->hasContent()) {
-            $req->header->set('Content-Type', $req->content->getContentType());
+            $req->header->set('Content-Type', $req->getContentType());
             curl_setopt($ch, CURLOPT_POSTFIELDS, $req->content);
         }
         if ($req->hasHeader()) {
